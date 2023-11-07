@@ -1,15 +1,16 @@
 body {
   background-color: #e3e7e8;
   font-family: system-ui;
-  background: linear-gradient(135deg, #153677, #4e085f);
+  /* background: linear-gradient(135deg, #153677, #4e085f); */
 }
 .container {
   width: 1000px;
   margin: auto;
   transition: 0.5s;
+  
 }
 h1 {
-  color: blanchedalmond;
+  color: black;
 }
 header {
   display: grid;
@@ -61,7 +62,7 @@ header .shopping span {
   margin: 10px;
 }
 .list .item button {
-  background-color: #1c1f25;
+  background-color: #468B97;
   color: #fff;
   width: 100%;
   padding: 10px;
