@@ -10,7 +10,7 @@ body {
   
 }
 h1 {
-  color: black;
+  color: #000;
 }
 header {
   display: grid;
@@ -62,8 +62,8 @@ header .shopping span {
   margin: 10px;
 }
 .list .item button {
-  background-color: #468B97;
-  color: #fff;
+  background-color: #E8BC0E;
+  color: #000;
   width: 100%;
   padding: 10px;
 }
