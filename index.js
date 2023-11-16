@@ -18,13 +18,13 @@ let products = [
     id: 1,
     name: "Adobo",
     image: "1.PNG",
-    price: 150,
+    price: 120,
   },
   {
     id: 2,
     name: "Sinigang",
     image: "2.PNG",
-    price: 120,
+    price: 150,
   },
   {
     id: 3,
@@ -45,12 +45,6 @@ let products = [
     price: 150,
   },
   {
-    id: 6,
-    name: "Special Halo-Halo",
-    image: "6.PNG",
-    price: 100,
-  },
-  {
     id: 7,
     name: "Bulalo",
     image: "7.PNG",
@@ -58,15 +52,57 @@ let products = [
   },
   {
     id: 8,
+    name: "Tinolang Manok",
+    image: "11.PNG",
+    price: 120,
+  },
+  {
+    id: 9,
+    name: "Dinakdakan",
+    image: "12.PNG",
+    price: 120,
+  },
+  {
+    id: 10,
+    name: "Pancit Bihon",
+    image: "13.PNG",
+    price: 50,
+  },
+  {
+    id: 11,
+    name: "Chicken Curry",
+    image: "14.PNG",
+    price: 150,
+  },
+  {
+    id: 12,
+    name: "Beef Mami",
+    image: "15.PNG",
+    price: 100,
+  },
+  {
+    id: 13,
     name: "Rice",
     image: "8.PNG",
     price: 25,
   },
   {
-    id: 9,
+    id: 6,
+    name: "Special Halo-Halo",
+    image: "6.PNG",
+    price: 100,
+  },
+  {
+    id: 14,
     name: "Softdrinks",
     image: "9.PNG",
     price: 30,
+  },
+  {
+    id: 15,
+    name: "Bottled Water",
+    image: "10.PNG",
+    price: 25,
   },
 ];
 let listCards = [];
