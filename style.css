@@ -1,33 +1,67 @@
 body {
   background-color: #e3e7e8;
   font-family: system-ui;
-  /* background: linear-gradient(135deg, #153677, #4e085f); */
+  background: linear-gradient(135deg, #153677, #4e085f); 
+ 
 }
 .container {
-  width: 1500px;
+  max-width: 1400px;
   margin: auto;
   transition: 0.5s;
   
 }
-#container-1{
+#container-1a {
   color: #fff;
   font-size: 20px;
   display: grid;
-  grid-template-columns:225px 100px 800px 100px 100px;
+  grid-template-columns:100px 150px 1000px 125px 100px;
+  text-align: center;
+  margin-top: px;
+
+}
+p span:hover{
+  color: rgb(120, 141, 234);
 }
 
-#container-1 p:hover {
+#container-1a p:hover {
   color: rgb(155, 155, 234);
   cursor: pointer;
 }
-
+#container-1b {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+  gap: 10px;
+}
 h1 {
   color: blanchedalmond;
+  font-size: 40px;
+}
+
+#lutongBahay {
+  color: #E8BC0E;
+  font-size: 25px;
+}
+#ordernow {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 10px;
+  color: #e3e7e8;
+  background-color: #153677;
+}
+#ordernow:hover {
+  color: #b98e7c;
+
 }
 header {
   display: grid;
   grid-template-columns: 1fr 50px;
-  margin-top: 50px; 
+  margin-top: -10px; 
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
  }
 header .shopping {
   position: relative;
